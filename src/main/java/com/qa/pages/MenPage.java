@@ -22,6 +22,7 @@ public class MenPage extends BaseClass{
 	@FindBy(xpath="(//input[@class='manufacturerproduct'])[5]") WebElement coachBrandCheckbox;
 	@FindBy(xpath="(//input[@class='manufacturerproduct'])[6]") WebElement pradaBrandCheckbox;
 	@FindBy(xpath="//span[@class='ui-slider-handle ui-corner-all ui-state-default'][1]") WebElement sliderByPrice;
+	@FindBy(xpath="(//img[@class='img-responsive'])[2]") WebElement clickOnProduct;
 	
 	public MenPage()   {
 		PageFactory.initElements(driver, this);
@@ -171,7 +172,11 @@ public class MenPage extends BaseClass{
 		
 		
 		
-		
+		public Productdetailpage clickOnProduct() {
+			clickOnProduct.click();
+			System.out.println("product details page");
+			return new Productdetailpage();
+		}
         
 		
 	}	

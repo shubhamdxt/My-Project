@@ -22,6 +22,7 @@ public class HomePage extends BaseClass{
 	}
 	
 	public String validateHomePageTitle(){
+		
 		return driver.getTitle();
 	}
 	

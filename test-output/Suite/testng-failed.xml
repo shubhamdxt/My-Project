@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
       <class name="com.qa.tests.ProductDetailTest">
         <methods>
           <include name="tearDown"/>
           <include name="verfiyDecQuntityButton"/>
-          <include name="verifyAddToCart"/>
           <include name="setUp"/>
           <include name="verifyIncQuntityButton"/>
         </methods>
       </class> <!-- com.qa.tests.ProductDetailTest -->
+      <class name="com.qa.tests.DashboardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyMenLink"/>
+        </methods>
+      </class> <!-- com.qa.tests.DashboardTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -18,11 +18,12 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class ExtentReporter implements IReporter {
+public class ExtentReporterNG implements IReporter{
+     
 	private ExtentReports extent;
-
-	@Override
+	
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
+
 		extent = new ExtentReports(outputDirectory + File.separator
 				+ "Extent.html", true);
 
@@ -40,8 +41,9 @@ public class ExtentReporter implements IReporter {
 
 		extent.flush();
 		extent.close();
+		
+		
 	}
-	
 	private void buildTestNodes(IResultMap tests, LogStatus status) {
 		ExtentTest test;
 
@@ -66,7 +68,7 @@ public class ExtentReporter implements IReporter {
 			}
 		}
 	}
-
+	
 	private Date getTime(long millis) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
