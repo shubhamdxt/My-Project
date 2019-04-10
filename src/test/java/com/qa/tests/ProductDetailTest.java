@@ -38,7 +38,7 @@ public class ProductDetailTest extends BaseClass {
    public void verfiyDecQuntityButton() throws Exception {
 	   Thread.sleep(2000);
 	  
-	   productDetailPage.decQuntity();
+	   productDetailPage.decQuntityBtn();
 	   Thread.sleep(2000);
    }
    
@@ -46,7 +46,7 @@ public class ProductDetailTest extends BaseClass {
    public void verifyIncQuntityButton() throws Exception {
 	   Thread.sleep(2000);
 	  
-	   productDetailPage.incQuntity();
+	   productDetailPage.incQuntityBtn();
 	   Thread.sleep(2000);
    }
    

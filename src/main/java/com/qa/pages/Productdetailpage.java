@@ -9,7 +9,7 @@ import com.qa.base.BaseClass;
 public class Productdetailpage extends BaseClass {
 	
 	@FindBy(xpath="//div[@class='dec button']")WebElement decQuntity;
-	@FindBy(xpath="//div[@class='dec button']")WebElement incQuntity;
+	@FindBy(xpath="//div[@class='inc button']")WebElement incQuntity;
 	@FindBy(xpath="//button[text()='Add to cart']")WebElement addToCartBtn;
 	
 	public Productdetailpage()   
@@ -21,13 +21,13 @@ public class Productdetailpage extends BaseClass {
 		return driver.getTitle();
 	}
 	
-	public void decQuntity() {
+	public void decQuntityBtn() {
 		
 		//for(int i=5;i>0;i--)
 		decQuntity.click();
 	}
 	
-    public void incQuntity() {
+    public void incQuntityBtn() {
     //	for(int i=0;i<5;i++)
     		incQuntity.click();
 	}
