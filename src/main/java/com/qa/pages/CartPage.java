@@ -1,5 +1,8 @@
 package com.qa.pages;
 
-public class CartPage {
+import com.qa.base.BaseClass;
+
+public class CartPage extends BaseClass{
+	
 
 }
