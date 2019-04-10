@@ -45,7 +45,7 @@ public class ProductDetailTest extends BaseClass {
    @Test(priority=2)
    public void verifyIncQuntityButton() throws Exception {
 	   Thread.sleep(2000);
-	  
+	  System.out.println("gfdg");
 	   productDetailPage.incQuntityBtn();
 	   Thread.sleep(2000);
    }
