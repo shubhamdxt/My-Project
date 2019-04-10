@@ -6,6 +6,7 @@ public class CartPage extends BaseClass{
 	public CartPage() {
 		// TODO Auto-generated constructor stub
 		System.out.println("fsfsgfg");
+		System.out.println("fsfsgfg");
 	}
 
 }
