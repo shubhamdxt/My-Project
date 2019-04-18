@@ -49,7 +49,7 @@ public class LoginTest extends BaseClass{
 	@Test(priority=3)
 	public void loginTest() throws InterruptedException {
 		  Thread.sleep(3000);
-		  System.out.println("before login");
+		  System.out.println("before this is good  login");
 		 /* WebElement myDynamicElement = (new WebDriverWait(driver, 10))
 				  .until(ExpectedConditions.invisibilityOfElementLocated(loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"))));*/
 		  loginPage.clickHomeLoginLink();
