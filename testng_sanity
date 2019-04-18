@@ -11,9 +11,10 @@
     <classes>
    
       <class name="com.qa.tests.LoginTest"/>
-     <class name="com.qa.tests.HomeTest"/>
-       <class name="com.qa.tests.BeautyTest"/>
+    <class name="com.qa.tests.HomeTest"/>
+      <class name="com.qa.tests.BeautyTest"/>
         <class name="com.qa.tests.ProductDetailTest"/>
+         <class name="com.qa.tests.CartTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

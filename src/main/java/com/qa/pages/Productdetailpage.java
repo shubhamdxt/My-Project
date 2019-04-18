@@ -15,6 +15,8 @@ public class Productdetailpage extends BaseClass {
 //	@FindBy(xpath="//div[@class='inc button']")WebElement incQuntity;
 	@FindBy(xpath="//button[text()='Add to cart']")WebElement addToCartBtn;
 	
+	@FindBy(xpath="//button[text()='View Cart & Checkout']")WebElement viewCartBtn;
+	
 	public Productdetailpage()   
 	{
 		PageFactory.initElements(driver, this);
@@ -44,6 +46,15 @@ public class Productdetailpage extends BaseClass {
     
     public void addToCartButton() 
     {
-    	addToCartBtn.click();	
+    	addToCartBtn.click();
+    	
+    }
+    
+    public CartPage clickOnViewCartBtn() 
+    {
+    	
+    	viewCartBtn.click();
+    	
+    	return new CartPage();
     }
 }

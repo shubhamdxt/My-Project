@@ -10,9 +10,11 @@
     <!--   <class name="com.qa.tests.MenTest"/> -->
       <class name="com.qa.tests.DashboardTest"/>
      
-      <class name="com.qa.tests.ElectronicsTest"/>
+       <class name="com.qa.tests.ElectronicsTest"/>
       <class name="com.qa.tests.BeautyTest"/>
-      <class name="com.qa.tests.HomeTest"/>
+      <class name="com.qa.tests.HomeTest"/> 
+       
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

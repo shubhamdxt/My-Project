@@ -1,5 +1,9 @@
 package com.qa.tests;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -63,16 +67,32 @@ public class ProductDetailTest extends BaseClass {
 		
 	}
    @Test(priority=2)
-   public void verifyAddToCart() throws Exception {
+   public void verifyAddToCart() throws Exception  {
 	      homePage.clickOnBeautyLink();
 		
 		  beautyPage.clickForProdDetail();
 		  
 		  productDetailPage.clickOnSizeOfItems();
 	      productDetailPage.addToCartButton();
-	  
+	    Thread.sleep(5000);
+
    }
    
+   @Test(priority=3)
+   public void verifyviewCart() throws Exception  {
+	   Thread.sleep(5000);
+	   homePage.clickOnBeautyLink();
+		
+		  beautyPage.clickForProdDetail();
+		  
+		  productDetailPage.clickOnSizeOfItems();
+	
+		  productDetailPage.addToCartButton();
+		  Thread.sleep(5000);
+		 productDetailPage.clickOnViewCartBtn();
+
+		  
+   }
    @AfterMethod
 	public void tearDown() {
 		driver.quit();
