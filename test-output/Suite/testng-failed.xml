@@ -6,18 +6,10 @@
       <class name="com.qa.tests.ProductDetailTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verfiyDecQuntityButton"/>
+          <include name="verifyAddToCart"/>
           <include name="setUp"/>
-          <include name="verifyIncQuntityButton"/>
         </methods>
       </class> <!-- com.qa.tests.ProductDetailTest -->
-      <class name="com.qa.tests.DashboardTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyMenLink"/>
-        </methods>
-      </class> <!-- com.qa.tests.DashboardTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

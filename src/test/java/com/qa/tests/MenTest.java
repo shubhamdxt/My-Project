@@ -39,20 +39,20 @@ public class MenTest extends BaseClass{
 		menPage.validateMenPageTitle();
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void verifyProductSize() throws InterruptedException {
 //		 homePage.clickforLogin();
 //		  dashboardPage= loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"));
-		dashboardPage.clickonMenLink();
+	//	dashboardPage.clickonMenLink();
 		Thread.sleep(2000);
 	    menPage.productSize();
 	    Thread.sleep(2000);
 		}
 	
-	@Test(priority=3)
+	@Test(priority=4)
 	public void verifyfilterbybrand() throws InterruptedException {
 		Thread.sleep(2000);
-		dashboardPage.clickonMenLink();
+	//	dashboardPage.clickonMenLink();
 		Thread.sleep(2000);
 	    menPage.productSize();
 	    Thread.sleep(2000);
@@ -60,10 +60,10 @@ public class MenTest extends BaseClass{
 	    Thread.sleep(2000);
 	}
 	
-	@Test(priority=4)
+	@Test(priority=5)
 	public void verifyfilterbyslider() throws InterruptedException {
 		Thread.sleep(2000);
-		dashboardPage.clickonMenLink();
+	//	dashboardPage.clickonMenLink();
 		Thread.sleep(2000);
 	   menPage.productSize();
 	   Thread.sleep(2000);
@@ -74,10 +74,10 @@ public class MenTest extends BaseClass{
 	}
 	
 	
-	@Test(priority=0)
+	@Test(priority=2)
 	public void verifyProductDetails() throws InterruptedException {
 		Thread.sleep(2000);
-		dashboardPage.clickonMenLink();
+	//	dashboardPage.clickonMenLink();
 		Thread.sleep(2000);
 	   menPage.productSize();
 	   Thread.sleep(2000);
@@ -85,7 +85,9 @@ public class MenTest extends BaseClass{
 	    Thread.sleep(2000);
 	    menPage.filterBySilider();
 	    Thread.sleep(2000);
+	    System.out.println("click for prod");
 	    menPage.clickOnProduct();
+	    System.out.println("click for meeee");
 	    Thread.sleep(2000);
 	}
 

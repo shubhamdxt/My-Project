@@ -9,6 +9,9 @@ import com.qa.base.BaseClass;
 
 public class LoginPage extends BaseClass{
 	
+	@FindBy(xpath="//span[text()='Login']")
+	WebElement homePageLoginlink;
+	
 	@FindBy(xpath="//input[@name='useremail']")
 	WebElement emailId;
 	
@@ -32,19 +35,29 @@ public class LoginPage extends BaseClass{
 		
 		return driver.getTitle();
 	}
-	public DashboardPage login(String emil,String pass) throws InterruptedException 
+	
+	
+	public void clickHomeLoginLink() 
+	{
+		homePageLoginlink.click();
+	}
+	
+	
+	public HomePage login(String emil,String pass) throws InterruptedException 
 	{
 		Thread.sleep(2000);
-		emailId.sendKeys(emil);
 		emailId.clear();
+		emailId.sendKeys(emil);
+	
 		Thread.sleep(2000);
-		password.sendKeys(pass);
 		password.clear();
+		password.sendKeys(pass);
+	
 		Thread.sleep(2000);
 		
 		loginBtn.click();
 		Thread.sleep(2000);
-		return new DashboardPage();
+		return new HomePage();
 	
 	}
 	

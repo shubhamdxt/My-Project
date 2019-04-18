@@ -50,13 +50,19 @@ public class DashboardPage extends BaseClass{
 		return driver.getTitle();
 	}
 	
-	public MenPage clickonMenLink() {
+	/*public MenPage clickonMenLink() {
 		
 		menLink.click();
 		
 		return new MenPage();
-	}
+	}*/
 	
+	public BeautyPage clickOnBeautyLink() 
+	{
+		beautyLink.click();
+		
+		return new BeautyPage();
+	}
 	/*public void productSize() {
 		 List<WebElement> product=driver.findElements(By.xpath("//div[@class='products']"));
 	//	List<WebElement> rows=driver.findElements(By.name(name))
@@ -67,7 +73,8 @@ public class DashboardPage extends BaseClass{
 //		    }
 	}*/
 	
-	public void checkboxBrand() {
+	public void checkboxBrand() 
+	{
 		List<WebElement> chechboxList=driver.findElements(By.xpath("//input[@class='manufacturerproduct']"));
 		int itemList=chechboxList.size();
 		System.out.println("Afetr one checkbox size of product is:"+itemList);

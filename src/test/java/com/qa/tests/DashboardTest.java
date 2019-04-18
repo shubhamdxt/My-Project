@@ -36,15 +36,24 @@ public class DashboardTest extends BaseClass{
 	public void verifyDasboardTitle() {
 		dashboardPage.validateDashboardPageTitle();
 	}
+	
 	@Test(priority=2)
+	public void verifyBeautyLink() {
+		dashboardPage.clickOnBeautyLink();
+	}
+	
+	/*@Test(priority=2)
 	public void verifyMenLink() throws InterruptedException {
+		Thread.sleep(2000);
 		  homePage.clickforLogin();
 		  dashboardPage= loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"));
 		 Thread.sleep(2000);
+		 System.out.println("befor clicking menlink");
 		dashboardPage.clickonMenLink();
 		 Thread.sleep(2000);
+		 System.out.println("after clicking menlink");
 	}
-	
+	*/
 	/*@Test(priority=3)
 	public void verifyProductSize() throws InterruptedException {
 //		 homePage.clickforLogin();
@@ -94,6 +103,8 @@ public class DashboardTest extends BaseClass{
 		Thread.sleep(2000);
 		dashboardPage.sportshoeslink();
 		Thread.sleep(2000);
+		//testing for size
+		//a[text()=' M ']
 	
 	}
 	

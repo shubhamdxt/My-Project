@@ -173,6 +173,8 @@ public class MenPage extends BaseClass{
 		
 		
 		public Productdetailpage clickOnProduct() {
+			
+			System.out.println("this is go for product  page");
 			clickOnProduct.click();
 			System.out.println("product details page");
 			return new Productdetailpage();

@@ -31,7 +31,7 @@ public class LoginTest extends BaseClass{
 		initialization();
 		loginPage=new LoginPage();
 		homePage=new HomePage();
-		dashboardPage=new DashboardPage();
+		/*dashboardPage=new DashboardPage();*/
 	}
 	
 	@Test(priority=1)
@@ -42,13 +42,18 @@ public class LoginTest extends BaseClass{
 	}
 	
 	@Test(priority=2)
+	public void verifyHomeLink() {
+		loginPage.clickHomeLoginLink();
+	}
+	
+	@Test(priority=3)
 	public void loginTest() throws InterruptedException {
 		  Thread.sleep(3000);
 		  System.out.println("before login");
 		 /* WebElement myDynamicElement = (new WebDriverWait(driver, 10))
 				  .until(ExpectedConditions.invisibilityOfElementLocated(loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"))));*/
-		  homePage.clickforLogin();
-		  dashboardPage= loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"));
+		  loginPage.clickHomeLoginLink();
+		  homePage= loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"));
 		  System.out.println("after login " +dashboardPage);
 		
 		  

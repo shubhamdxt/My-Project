@@ -45,15 +45,19 @@ public class HomeTest extends BaseClass{
 	  	AssertJUnit.assertTrue(flag);
 	}
 	
-	@Test(priority=3)
+	/*@Test(priority=3)
 	public void verifyLoginLink() throws InterruptedException {
 		Thread.sleep(4000);
 		loginPage=homePage.clickforLogin();
 		Thread.sleep(4000);
 	
 	
-	}
+	}*/
 	
+	@Test(priority=3)
+	public void verifyBeautyLink() {
+		homePage.clickOnBeautyLink();
+	}
 	
 
 @AfterMethod
