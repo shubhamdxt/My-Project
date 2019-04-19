@@ -1,31 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="1" ignored="0" total="6" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47208" started-at="2019-04-18T15:22:15Z" finished-at="2019-04-18T15:23:02Z">
+  <suite name="Suite" duration-ms="433661" started-at="2019-04-19T15:13:47Z" finished-at="2019-04-19T15:21:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47208" started-at="2019-04-18T15:22:15Z" finished-at="2019-04-18T15:23:02Z">
-      <class name="com.qa.tests.CartTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CartTest@42d80b78]" name="setUp" is-config="true" duration-ms="9850" started-at="2019-04-18T20:52:31Z" finished-at="2019-04-18T20:52:41Z">
+    <test name="Test" duration-ms="433661" started-at="2019-04-19T15:13:47Z" finished-at="2019-04-19T15:21:01Z">
+      <class name="com.qa.tests.CheckoutBillingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="11302" started-at="2019-04-19T20:43:47Z" finished-at="2019-04-19T20:43:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyRadioBtn()[pri:1, instance:com.qa.tests.CartTest@42d80b78]" name="verifyRadioBtn" duration-ms="16785" started-at="2019-04-18T20:52:41Z" finished-at="2019-04-18T20:52:58Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="PASS" signature="verifyBEmlFld()[pri:1, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyBEmlFld" duration-ms="25685" started-at="2019-04-19T20:43:59Z" finished-at="2019-04-19T20:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBEmlFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="604" started-at="2019-04-19T20:44:24Z" finished-at="2019-04-19T20:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="9438" started-at="2019-04-19T20:44:25Z" finished-at="2019-04-19T20:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFrsNameFld()[pri:2, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyFrsNameFld" duration-ms="27209" started-at="2019-04-19T20:44:34Z" finished-at="2019-04-19T20:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFrsNameFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="608" started-at="2019-04-19T20:45:02Z" finished-at="2019-04-19T20:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="10829" started-at="2019-04-19T20:45:02Z" finished-at="2019-04-19T20:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLastNamFld()[pri:3, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyLastNamFld" duration-ms="25637" started-at="2019-04-19T20:45:13Z" finished-at="2019-04-19T20:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastNamFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="602" started-at="2019-04-19T20:45:39Z" finished-at="2019-04-19T20:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="9519" started-at="2019-04-19T20:45:39Z" finished-at="2019-04-19T20:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddrsFld()[pri:4, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyAddrsFld" duration-ms="25366" started-at="2019-04-19T20:45:49Z" finished-at="2019-04-19T20:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddrsFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="597" started-at="2019-04-19T20:46:14Z" finished-at="2019-04-19T20:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="9937" started-at="2019-04-19T20:46:15Z" finished-at="2019-04-19T20:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContryFld()[pri:5, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyContryFld" duration-ms="30327" started-at="2019-04-19T20:46:25Z" finished-at="2019-04-19T20:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContryFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="592" started-at="2019-04-19T20:46:55Z" finished-at="2019-04-19T20:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="10017" started-at="2019-04-19T20:46:56Z" finished-at="2019-04-19T20:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyStatFld()[pri:6, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyStatFld" duration-ms="49450" started-at="2019-04-19T20:47:06Z" finished-at="2019-04-19T20:47:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Delaware
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:120)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.access$300(EventFiringWebDriver.java:69)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:397)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:389)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.createWebElement(EventFiringWebDriver.java:327)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:196)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isSelected(Unknown Source)
-	at com.qa.pages.CartPage.clickOnFreeDlBtn(CartPage.java:28)
-	at com.qa.tests.CartTest.verifyRadioBtn(CartTest.java:41)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Delaware
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.qa.pages.CheckoutBillingPage.stateDropDown(CheckoutBillingPage.java:62)
+	at com.qa.tests.CheckoutBillingTest.verifyStatFld(CheckoutBillingTest.java:163)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,423 +116,42 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRadioBtn -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.CartTest@42d80b78]" name="setUp" is-config="true" duration-ms="2090" started-at="2019-04-18T20:53:00Z" finished-at="2019-04-18T20:53:02Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.57 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.57 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.base.BaseClass.initialization(BaseClass.java:48)
-	at com.qa.tests.CartTest.setUp(CartTest.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyContBtn()[pri:2, instance:com.qa.tests.CartTest@42d80b78]" name="verifyContBtn" duration-ms="0" started-at="2019-04-18T20:53:02Z" finished-at="2019-04-18T20:53:02Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.57 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.57 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.base.BaseClass.initialization(BaseClass.java:48)
-	at com.qa.tests.CartTest.setUp(CartTest.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContBtn -->
-        <test-method status="SKIP" signature="verifyProcChkoutBtn()[pri:3, instance:com.qa.tests.CartTest@42d80b78]" name="verifyProcChkoutBtn" duration-ms="0" started-at="2019-04-18T20:53:02Z" finished-at="2019-04-18T20:53:02Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.57 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.57 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.base.BaseClass.initialization(BaseClass.java:48)
-	at com.qa.tests.CartTest.setUp(CartTest.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProcChkoutBtn -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.CartTest@42d80b78]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-18T20:53:02Z" finished-at="2019-04-18T20:53:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- com.qa.tests.CartTest -->
-      <class name="com.qa.tests.ProductDetailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="setUp" is-config="true" duration-ms="10802" started-at="2019-04-18T20:52:15Z" finished-at="2019-04-18T20:52:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySizeItem()[pri:1, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="verifySizeItem" duration-ms="4614" started-at="2019-04-18T20:52:26Z" finished-at="2019-04-18T20:52:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySizeItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="605" started-at="2019-04-18T20:52:31Z" finished-at="2019-04-18T20:52:31Z">
+        </test-method> <!-- verifyStatFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="582" started-at="2019-04-19T20:47:55Z" finished-at="2019-04-19T20:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2394" started-at="2019-04-18T20:52:58Z" finished-at="2019-04-18T20:53:00Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.83 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.83 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.base.BaseClass.initialization(BaseClass.java:48)
-	at com.qa.tests.ProductDetailTest.setUp(ProductDetailTest.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="9893" started-at="2019-04-19T20:47:56Z" finished-at="2019-04-19T20:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyAddToCart()[pri:2, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="verifyAddToCart" duration-ms="0" started-at="2019-04-18T20:53:00Z" finished-at="2019-04-18T20:53:00Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+        <test-method status="FAIL" signature="verifyCityFld()[pri:7, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyCityFld" duration-ms="48359" started-at="2019-04-19T20:48:06Z" finished-at="2019-04-19T20:48:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.83 seconds
+              <![CDATA[Cannot locate element with text: Wilmington
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver]]>
+Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.83 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Wilmington
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.base.BaseClass.initialization(BaseClass.java:48)
-	at com.qa.tests.ProductDetailTest.setUp(ProductDetailTest.java:34)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.qa.pages.CheckoutBillingPage.cityDropDown(CheckoutBillingPage.java:67)
+	at com.qa.tests.CheckoutBillingTest.verifyCityFld(CheckoutBillingTest.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -491,99 +173,51 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddToCart -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-18T20:53:02Z" finished-at="2019-04-18T20:53:02Z">
+        </test-method> <!-- verifyCityFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="593" started-at="2019-04-19T20:48:54Z" finished-at="2019-04-19T20:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="11410" started-at="2019-04-19T20:48:55Z" finished-at="2019-04-19T20:49:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyviewCart()[pri:3, instance:com.qa.tests.ProductDetailTest@1e88b3c]" name="verifyviewCart" duration-ms="0" started-at="2019-04-18T20:53:02Z" finished-at="2019-04-18T20:53:02Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.83 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created exception
-from no such window: window was already closed
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.83 seconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SOURCEANDROID', ip: '192.168.136.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
-Driver info: driver.version: ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.base.BaseClass.initialization(BaseClass.java:48)
-	at com.qa.tests.ProductDetailTest.setUp(ProductDetailTest.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method status="PASS" signature="verifyMoblFld()[pri:8, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyMoblFld" duration-ms="27284" started-at="2019-04-19T20:49:06Z" finished-at="2019-04-19T20:49:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyviewCart -->
-      </class> <!-- com.qa.tests.ProductDetailTest -->
+        </test-method> <!-- verifyMoblFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="598" started-at="2019-04-19T20:49:33Z" finished-at="2019-04-19T20:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="11564" started-at="2019-04-19T20:49:34Z" finished-at="2019-04-19T20:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyZipCodFld()[pri:8, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyZipCodFld" duration-ms="39476" started-at="2019-04-19T20:49:45Z" finished-at="2019-04-19T20:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyZipCodFld -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="594" started-at="2019-04-19T20:50:25Z" finished-at="2019-04-19T20:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="setUp" is-config="true" duration-ms="9602" started-at="2019-04-19T20:50:25Z" finished-at="2019-04-19T20:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNextBtn()[pri:9, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="verifyNextBtn" duration-ms="25326" started-at="2019-04-19T20:50:35Z" finished-at="2019-04-19T20:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNextBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.CheckoutBillingTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="605" started-at="2019-04-19T20:51:00Z" finished-at="2019-04-19T20:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.CheckoutBillingTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -6,22 +6,14 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.qa.tests.CartTest">
+      <class name="com.qa.tests.CheckoutBillingTest">
         <methods>
-          <include name="verifyProcChkoutBtn"/>
-          <include name="setUp"/>
-          <include name="verifyContBtn"/>
-          <include name="verifyRadioBtn"/>
-        </methods>
-      </class> <!-- com.qa.tests.CartTest -->
-      <class name="com.qa.tests.ProductDetailTest">
-        <methods>
-          <include name="verifyviewCart"/>
+          <include name="verifyCityFld"/>
           <include name="tearDown"/>
-          <include name="verifyAddToCart"/>
+          <include name="verifyStatFld"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.tests.ProductDetailTest -->
+      </class> <!-- com.qa.tests.CheckoutBillingTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

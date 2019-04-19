@@ -1,5 +1,6 @@
 package com.qa.tests;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -20,6 +21,7 @@ public class CartTest extends BaseClass {
 	Productdetailpage productDetailPage;
 	CartPage cartPage;
 	
+	
 	public CartTest()
 	{
 		super();
@@ -37,16 +39,60 @@ public class CartTest extends BaseClass {
 	
 
 	@Test(priority=1)
-	public void verifyRadioBtn() {
-		cartPage.clickOnFreeDlBtn();	
-	}
-	@Test(priority=2)
-	public void verifyContBtn() {
-		cartPage.clickOnContShopBtn();	
+	public void verifyRadioBtn() throws Exception {
+		homePage.clickOnBeautyLink();
+		
+		  beautyPage.clickForProdDetail();
+		  
+		  productDetailPage.clickOnSizeOfItems();
+	
+		  productDetailPage.addToCartButton();
+		  Thread.sleep(5000);
+		  productDetailPage.clickOnViewCartBtn();
+		  Thread.sleep(5000);
+		  cartPage.clickOnFreeDlBtn();	
+		  Thread.sleep(2000);
 	}
 	
-	@Test(priority=3)
-	public void verifyProcChkoutBtn() {
+	
+	@Test(priority=2)
+	public void verifyContBtn() throws Exception{
+		homePage.clickOnBeautyLink();
+		
+		  beautyPage.clickForProdDetail();
+		  
+		  productDetailPage.clickOnSizeOfItems();
+	
+		  productDetailPage.addToCartButton();
+		  Thread.sleep(5000);
+		  productDetailPage.clickOnViewCartBtn();
+		  Thread.sleep(5000);
+		  cartPage.clickOnFreeDlBtn();	
+		  Thread.sleep(2000);
+		  cartPage.clickOnContShopBtn();	
+		  Thread.sleep(5000);
+	}
+	
+	@Test(priority=2)
+	public void verifyProcChkoutBtn() throws Exception {
+		homePage.clickOnBeautyLink();
+		
+		  beautyPage.clickForProdDetail();
+		  
+		  productDetailPage.clickOnSizeOfItems();
+	
+		  productDetailPage.addToCartButton();
+		  Thread.sleep(5000);
+		  productDetailPage.clickOnViewCartBtn();
+		  Thread.sleep(5000);
+		  cartPage.clickOnFreeDlBtn();	
+		 	
+		  Thread.sleep(5000);
 		cartPage.clickOnPrcToChkBtn();
 	}
+	
+	 @AfterMethod
+		public void tearDown() {
+			driver.quit();
+		}
 }

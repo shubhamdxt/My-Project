@@ -16,7 +16,7 @@ public class CartPage extends BaseClass{
 	
 	public CartPage()   
 	{
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);    
 	}
 
 	public String validateProdDetlPageTitle(){
@@ -25,14 +25,11 @@ public class CartPage extends BaseClass{
 	
 	
 	public void clickOnFreeDlBtn() {
-		if(freRadioDlryBtn.isSelected()) {
-			freRadioDlryBtn.click();	
-		}
-		else
-			if(oneDayRadioDlryBtn.isSelected()) {
+		
+		
 				oneDayRadioDlryBtn.click();
-			}
-	//	freRadioDlryBtn.click();
+			
+	
 	}
 	
 	public HomePage clickOnContShopBtn() {
