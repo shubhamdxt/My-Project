@@ -1,5 +1,6 @@
 package com.qa.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -37,9 +38,12 @@ public class LoginTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyLoginPageTitle() {
 		String titleOfLogin=loginPage.loginPageTitle();
+		if(titleOfLogin.isEmpty()) {
+		Assert.assertTrue(true, "this is login title");
 		System.out.println("my test page111" + titleOfLogin);
 
 	}
+		}
 	
 	@Test(priority=2)
 	public void verifyHomeLink() {

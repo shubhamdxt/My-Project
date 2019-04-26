@@ -23,7 +23,8 @@ public class CheckoutBillingPage extends BaseClass{
 	
 	public CheckoutBillingPage()   
 	{
-		PageFactory.initElements(driver, this);    
+		PageFactory.initElements(driver, this);   
+		
 	}
 
 	public String validateCheckoutBillingPageTitle(){
@@ -33,6 +34,7 @@ public class CheckoutBillingPage extends BaseClass{
 	public void entrEmailFild() {
 		bEmailId.clear();
 		bEmailId.sendKeys("sf@gmail.com");
+		
 	}
 	
 	public void entrFrstFild() {
@@ -52,7 +54,7 @@ public class CheckoutBillingPage extends BaseClass{
 	
 	public  void countryDropDown(String country) {
 	      Select coutryDrop = new Select(bCounyFild);
-	   //   coutryDrop.selectByValue(country);
+	
 	      coutryDrop.selectByVisibleText(country);
 	}
 	
@@ -72,11 +74,16 @@ public class CheckoutBillingPage extends BaseClass{
 	}
 	
 	public void entrMoblFild() {
+		
 		bMoblFild.clear();
 		bMoblFild.sendKeys("987456612");
 	}
 	
-	public void clickOnNextBtn() {
+	public CheckoutDetailPage clickOnNextBtn() throws InterruptedException {
+		
 		bNextBtn.click();
+		Thread.sleep(2000);
+		
+		return new CheckoutDetailPage();
 	}
 }

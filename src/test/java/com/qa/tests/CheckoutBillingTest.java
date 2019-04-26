@@ -37,6 +37,7 @@ public class CheckoutBillingTest extends BaseClass {
 		productDetailPage=new Productdetailpage();
 		cartPage=new CartPage();
 		chkOutBillPage=new CheckoutBillingPage();
+		
 	}
 	
 	@Test(priority=1)
@@ -54,10 +55,11 @@ public class CheckoutBillingTest extends BaseClass {
 		  cartPage.clickOnFreeDlBtn();	
 		 	
 		  Thread.sleep(5000);
-		cartPage.clickOnPrcToChkBtn();
+		 cartPage.clickOnPrcToChkBtn();
 		  
-		chkOutBillPage.entrEmailFild();
-		Thread.sleep(2000);
+		 chkOutBillPage.entrEmailFild();
+		 Thread.sleep(2000);
+		
 	}
 	@Test(priority=2)
 	public void verifyFrsNameFld() throws Exception{
@@ -79,6 +81,7 @@ public class CheckoutBillingTest extends BaseClass {
 		 
 		chkOutBillPage.entrFrstFild();
 		 Thread.sleep(2000);
+		 
 	}
 	@Test(priority=3)
 	public void verifyLastNamFld()  throws Exception{
@@ -160,6 +163,8 @@ public class CheckoutBillingTest extends BaseClass {
 		  Thread.sleep(5000);
 		cartPage.clickOnPrcToChkBtn();
 		Thread.sleep(5000);
+		chkOutBillPage.countryDropDown("United States");
+		Thread.sleep(5000);
 		chkOutBillPage.stateDropDown("Delaware");
 		 Thread.sleep(2000);
 	}
@@ -181,7 +186,11 @@ public class CheckoutBillingTest extends BaseClass {
 		  Thread.sleep(5000);
 		cartPage.clickOnPrcToChkBtn();
 		 Thread.sleep(5000);
-		 chkOutBillPage.cityDropDown("Wilmington");
+		 chkOutBillPage.countryDropDown("United States");
+			Thread.sleep(5000);
+			chkOutBillPage.stateDropDown("Delaware");
+			Thread.sleep(5000);
+		 chkOutBillPage.cityDropDown("Bear");
 	//	chkOutBillPage.cityDropDown("Wilmington");
 		  Thread.sleep(2000);
 	}
@@ -251,6 +260,7 @@ public class CheckoutBillingTest extends BaseClass {
 		chkOutBillPage.entrMoblFild();*/
 		chkOutBillPage.clickOnNextBtn();
 		 Thread.sleep(2000);
+		 System.out.println("done");
 	}
 	
 
